@@ -1,0 +1,218 @@
+
+body{
+    line-height: 1;
+    margin:0;
+   /* background-image: linear-gradient(#ffff00, #4da6ff);
+       background-repeat: no-repeat;
+    background-size:cover;*/
+}
+.continar{
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+label{
+    font-size: 35px;
+    font-weight: bold;
+    color: #086308;
+}
+p{
+   font-size: 20px; 
+    line-height: 1.2;
+}
+article p{
+    font-size: 28px;
+    padding: 15px;
+    line-height: 1.4;
+}
+#section-1{
+    background: blue;
+    background: linear-gradient( #33cc33, #c2f0c2);
+}
+.row{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;    
+}
+.row ::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+*{
+    box-sizing: border-box;
+}
+button{
+    background-color: green;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 40px;
+    margin: 10px;
+}
+button.lernmore{
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+div.left{
+    margin-top: 0;
+    margin-left:20%; 
+}
+div.rightside{
+    margin-left: 10%; 
+}
+
+h1.larg{
+    color: white;
+    font-size: 56px;
+    margin: 0;
+    line-height: 80px;
+}
+header h1.header2{
+    font-size: 50px;
+    text-align: center;
+    color: #086308;
+    font-style: italic;
+}
+.gaith h2{
+    color: white;
+}
+
+input[type="text"],input[type="password"]{
+    width: 400px;
+    min-width: 100px;
+    font-size: 23px;
+    border-radius: 10px;
+}
+
+div.box{
+    text-align: center;
+    background-color:white;
+    box-shadow: 0 0 0 3px rgba(0,0,0,.15);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 28px 25px 40px 28px;
+}
+div.icon img{
+    width: 110px;
+    height: 110px;
+}
+div.img2 img{
+    width: 350px;
+    height: 400px;
+    border-radius: 40px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    box-shadow: -2px -2px 5px 2px rgba(0,0,0,.15), 2px 2px 25px 1px rgba(0,0,0,1);
+}
+
+/*###########navbar############*/
+nav,header,fotter{
+display:block;
+}
+nav ul{
+    background-color:#e8fce8;
+    margin:0;
+    padding: 0;
+  overflow: hidden;
+     text-align: center;
+     width: 100%;  
+}
+nav ul li {
+    float: left;
+    text-decoration:none;
+    border:none;
+    list-style: none;  
+}
+nav ul  .right{
+    float: right;
+       
+}
+nav  ul li a {
+    display: block;
+    text-decoration: none;
+    padding:20px;
+    color:#086308;
+    font-weight: 800;
+    font-size:20px;
+     text-align: center;
+}
+
+nav ul li a:hover{
+   background-color: green;
+    color: white;
+}
+nav .navbar .icon{
+    display: none;
+}
+/*/////for work on mobile/////*/ 
+@media screen and (max-width: 680px){
+     ul.navbar  li:not(:nth-child(1)) {
+        display:none;
+        
+    }
+    ul.navbar li.icon{
+        display: block;
+        float: right;
+    }
+    ul.navbar.responsive li.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.navbar.responsive{
+        position: relative;
+    }
+    ul.navbar.responsive li{
+        display: inline;
+        float: none;
+    }
+    ul.navbar.responsive li a{
+        display: block;
+        
+    }
+    .col-6,.col-4,.col-7,.col-5{
+  width: 100%;
+    }
+    div.box{
+        padding: 5px;
+        display: block;
+    }
+    
+    div.left,div.rightside{
+    margin: 25px;    
+        
+    }
+    .video iframe{
+     width: 100%;
+     position: relative; 
+        margin: 0;
+        overflow: hidden;
+    }
+    article p{
+    font-size: 25px;
+    
+}
+
+
+
